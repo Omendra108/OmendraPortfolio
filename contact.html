@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic HTML5 document structure -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Omendra K Upadhyay Portfolio</title>
+    
+    <!-- External CSS and Font Awesome icons -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Omendra K Upadhyay</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contact Header - Introduction to contact section -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>I'm always interested in new opportunities and exciting projects. Let's connect and discuss how we can work together!</p>
+            </div>
+        </section>
+
+        <!-- Contact Content - Main contact information and form -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Info - Various ways to reach out -->
+                    <div class="contact-info">
+                        <h2>Let's Connect</h2>
+                        <p>Feel free to reach out through any of the channels below. I typically respond within 24 hours.</p>
+                        
+                        <!-- Contact methods with icons and links -->
+                        <div class="contact-methods">
+                            <!-- Email contact method -->
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>omendraku30@gmail.com</p>
+                                    <a href="mailto:omendraku30@gmail.com" class="contact-link">Send Email</a>
+                                </div>
+                            </div>
+
+                            <!-- LinkedIn contact method -->
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>LinkedIn</h3>
+                                    <p>Connect with me professionally</p>
+                                    <a href="https://www.linkedin.com/in/omendra-kumar-upadhyay-b00402260/" class="contact-link" target="_blank">View Profile</a>
+                                </div>
+                            </div>
+
+                            <!-- GitHub contact method -->
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>GitHub</h3>
+                                    <p>Check out my projects and code</p>
+                                    <a href="https://github.com/Omendra108" class="contact-link" target="_blank">View Repositories</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Availability section -->
+                        <div class="availability">
+                            <h3>Availability</h3>
+                            <p>I'm currently available for:</p>
+                            <ul>
+                                <li>Internship opportunities</li>
+                                <li>Research collaborations</li>
+                                <li>Technical projects</li>
+                                <li>Academic discussions and networking</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form - Interactive form for visitors -->
+                    <div class="contact-form-container">
+                        <h2>Send a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <!-- Name input field -->
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <!-- Email input field -->
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <!-- Subject input field -->
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <!-- Message textarea -->
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info - Location, timezone, and language info -->
+        <section class="additional-info">
+            <div class="container">
+                <div class="info-grid">
+                    <!-- Location information -->
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Bhilai, India</p>
+                    </div>
+                    <!-- Time zone information -->
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Time Zone</h3>
+                        <p>IST (UTC+5:30)</p>
+                    </div>
+                    <!-- Language information -->
+                    <div class="info-card">
+                        <i class="fas fa-language"></i>
+                        <h3>Languages</h3>
+                        <p>English, Hindi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with copyright and social links -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Omendra K Upadhyay. All rights reserved.</p>
+            <!-- Social media links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/omendra-kumar-upadhyay-b00402260/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Omendra108" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:omendraku30@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactive features -->
+    <script src="script.js"></script>
+</body>
+</html>

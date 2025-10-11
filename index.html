@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic HTML5 document structure -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omendra K Upadhyay - Portfolio</title>
+    
+    <!-- External CSS and Font Awesome icons -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- Navigation Bar - Fixed at top with responsive design -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand name -->
+            <div class="nav-logo">
+                <a href="index.html">Omendra K Upadhyay</a>
+            </div>
+            <!-- Navigation menu items -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <!-- Mobile hamburger menu (3 lines) -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section - Main landing area with introduction -->
+        <section class="hero">
+            <!-- Animated Starfield Background -->
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+            
+            <div class="hero-content">
+                <!-- Left side: Text content -->
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Omendra</span></h1>
+                    <p class="hero-subtitle">Engineer & Problem Solver</p>
+                    <p class="hero-description">
+                        While the world writes code, I bring it to life.<br>
+                        Passionate about crafting end-to-end systems that transform ideas into reality.<br>
+                        Pursuing Electrical Engineering at IIT Bhilai.
+                    </p>
+                    <!-- Call-to-action buttons -->
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <!-- Right side: Animation -->
+                <div class="hero-image">
+                    <div class="code-animation">
+                        <div class="code-line">
+                            <span class="code-keyword">def</span> <span class="code-function">engineers_life</span>():
+                        </div>
+                        
+                        <div class="code-line">
+                            <span class="code-comment">// Late for work and sleep deprived</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">while</span> (<span class="code-variable">music && coffee</span>) {
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-function">create</span>(<span class="code-string">"Solutions"</span>);
+                        </div>
+                        <div class="code-line">
+                            }
+                        <div class="code-line">
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-string">"Innovation"</span>
+                            </div>
+                        </div>
+                        <div class="code-cursor">|</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section - Technical skills organized by category -->
+        <section class="skills">
+            <div class="container">
+                <h2>Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <!-- Hardware skills category -->
+                    <div class="skill-category">
+                        <h3>Hardware</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">FPGA</span>
+                            <span class="skill-tag">Raspberry Pi</span>
+                            <span class="skill-tag">ESP32</span>
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">PCB Design</span>
+                        </div>
+                    </div>
+                    <!-- Software skills category -->
+                    <div class="skill-category">
+                        <h3>Software</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Verilog HDL</span>
+                            <span class="skill-tag">MATLAB</span>
+                            <span class="skill-tag">LTSpice</span>
+                            <span class="skill-tag">GNU Radio</span>
+                        </div>
+                    </div>
+                    <!-- Tools and soft skills category -->
+                    <div class="skill-category">
+                        <h3>Tools & Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git & Github</span>
+                            <span class="skill-tag">Latex</span>
+                            <span class="skill-tag">Public Speaking</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Product Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section - Work experience timeline -->
+        <section class="experience">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="experience-timeline">
+                    <!-- ISRO Internship Experience -->
+                    <div class="experience-item">
+                        <div class="experience-date">Summer 2025</div>
+                        <div class="experience-content">
+                            <h3>Internship Trainee</h3>
+                            <h4>Satish Dhawan Space Centre, ISRO</h4>
+                            <p>During my Summer 2025 internship at SDSC SHAR, I developed a Python application capable of acquiring data from a PLC, logging it into a CSV file, and displaying it in real-time on a GUI-based 2D graph.</p>
+                            <ul>
+                                <li>Built responsive application using Python and various libraries for data Visualization</li>
+                                <li>Used Modbus TCP/IP protocol to communicate with the PLC</li>
+                                <li>Interacted with various scientists and visited facilities at SDSC SHAR to know about mission planning at ISRO</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- IIT Bhilai Internship Experience -->
+                    <div class="experience-item">
+                        <div class="experience-date">Summer 2024</div>
+                        <div class="experience-content">
+                            <h3>Summer Intern</h3>
+                            <h4>IIT Bhilai</h4>
+                            <p>Worked on a project to develope a prototype of drone-based disaster rescue system which can be used to rescue people from disaster areas</p>
+                            <ul>
+                                <li>Worked on the integeration of different sensors and micrcontroller with the drone</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action - Encourages visitors to contact -->
+        <section class="cta">
+            <div class="container">
+                <h2>Let's Work Together</h2>
+                <p>I'm always interested in new opportunities and exciting projects.</p>
+                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with copyright and social links -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Omendra K Upadhyay. All rights reserved.</p>
+            <!-- Social media links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/omendra-kumar-upadhyay-b00402260/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Omendra108" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:omendraku30@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactive features -->
+    <script src="script.js"></script>
+</body>
+</html>
