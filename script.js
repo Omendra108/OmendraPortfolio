@@ -361,6 +361,8 @@ loadingStyle.textContent = `
 `;
 document.head.appendChild(loadingStyle);
 
+// (Removed diary quote logic)
+
 // Generate random star positions for animated starfield
 function generateStars() {
     // Function to generate multiple box shadows for stars

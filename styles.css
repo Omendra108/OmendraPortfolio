@@ -127,6 +127,10 @@ body {
     align-items: center;
 }
 
+.hero-content.single {
+    grid-template-columns: 1fr;
+}
+
 .hero-text h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
@@ -251,6 +255,9 @@ body {
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+/* Right panel (plain, no animation) */
+/* removed right-panel */
 
 .code-line {
     opacity: 0;
